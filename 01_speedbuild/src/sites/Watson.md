@@ -1,16 +1,18 @@
 ---
 title: Watson
-date: 2019-10-22
+date: 2019-12-27
 tags: ['Vue.js', 'Tailwind CSS']
 image: ./images/watson.png
-duration: 1h45m
-preview: Laboris elit irure sunt non aliquip aliquip eiusmod.
+duration: 2h40m
 url: https://www.watson.ch/
-urlDisplay: www.watson.ch
-youtube: https://www.youtube.com/embed/WE2RcRd0Vds
-speedbuildUrl: https://www.digezz.ch/
+youtube: https://www.youtube.com/embed/Gahbyy6hXoM
+speedbuildUrl: https://speedbuild-watson.netlify.com/
 ---
 
-Laboris elit irure sunt non aliquip aliquip eiusmod. Laborum eu amet duis cupidatat laborum. Ipsum incididunt in velit velit eu commodo anim. Ipsum aliqua sunt nulla cupidatat duis Lorem incididunt aliqua culpa. Irure do veniam minim exercitation aliqua. Ipsum ullamco elit enim eu reprehenderit sit amet enim.
+Swiss online news portal, launched in 2014.
 
-Lorem laboris sint consequat occaecat incididunt ad. Qui et aliquip culpa amet excepteur et minim consectetur eiusmod. Consectetur sunt aute mollit do ut velit ad. Cillum adipisicing nostrud est aute do incididunt. Laboris irure irure et et nisi do laboris ullamco in sint ad.
+**Difficulties:**
+
+- responsive grid system
+- different sized images
+- a lot of content

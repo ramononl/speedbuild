@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1>Sites</h1>
-    <p>This is a list of all my speedbuilds sorted by date.</p>
+    <p>This is a list of all speedbuilds sorted by date.</p>
     <div class="mt-10">
       <div v-for="edge in $static.allSitePost.edges" :key="edge.node.id" class="mt-5 group">
         <g-link :to="edge.node.path">

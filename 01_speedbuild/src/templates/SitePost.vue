@@ -2,7 +2,7 @@
   <Layout>
     <h1>{{ $page.sitePost.title }}</h1>
     <div class="mt-6 flex flex-col lg:flex-row">
-      <div>
+      <div class="w-full lg:w-2/3">
         <div v-html="$page.sitePost.content"/>
         <div class="mt-8 relative rounded-lg overflow-hidden shadow-md" style="padding-top: 56.25%;">
             <iframe class="absolute top-0 left-0 w-full h-full border-0" :src="`${$page.sitePost.youtube}?rel=0`" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -11,7 +11,7 @@
       <div class="w-10/12 sm:w-2/3 md:w-1/2 lg:w-1/3 mx-auto mt-8 lg:mt-0 lg:ml-4 flex-shrink-0 self-stretch">
         <div class="rounded-lg border-gray-300 border shadow-md">
           <div class="px-4 py-6">
-            <a :href="$page.sitePost.url" target="_blank" rel="noopener" class="block relative group">
+            <a :href="$page.sitePost.speedbuildUrl" target="_blank" rel="noopener" class="block relative group">
               <g-image :src="$page.sitePost.image" :alt="`${$page.sitePost.title} Homepage`" class="rounded-lg border border-gray-300"/>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="group mr-3 mb-3 absolute right-0 bottom-0 w-10 h-10 opacity-0 group-hover:opacity-100 transition-all">
                 <circle cx="12" cy="12" r="10" class="text-green-500 fill-current"></circle>
@@ -27,14 +27,14 @@
                   <path class="text-gray-300 group-hover:text-gray-500 fill-current" d="M12 8a1 1 0 0 1-1 1H5v10h10v-6a1 1 0 0 1 2 0v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9c0-1.1.9-2 2-2h6a1 1 0 0 1 1 1z"></path>
                   <path class="text-gray-500 group-hover:text-gray-700 fill-current" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41z"></path>
                 </svg>
-                <span class="ml-1 text-gray-600 transition-all group-hover:text-gray-900">{{ $page.sitePost.urlDisplay }}</span>
+                <span class="ml-1 text-gray-600 transition-all group-hover:text-gray-900">Original site</span>
               </a>
               <a :href="$page.sitePost.speedbuildUrl" target="_blank" rel="noopener" class="mt-3 flex items-center group">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6">
                   <path class="text-gray-300 group-hover:text-gray-500 fill-current" d="M12 8a1 1 0 0 1-1 1H5v10h10v-6a1 1 0 0 1 2 0v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9c0-1.1.9-2 2-2h6a1 1 0 0 1 1 1z"></path>
                   <path class="text-gray-500 group-hover:text-gray-700 fill-current" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41z"></path>
                 </svg>
-                <span class="ml-1 text-gray-600 transition-all group-hover:text-gray-900">Speedbuild</span>
+                <span class="ml-1 text-gray-600 transition-all group-hover:text-gray-900">Speedbuild site</span>
               </a>
             </div>
           </div>
@@ -86,7 +86,6 @@ query Site ($path: String!) {
     image (width: 700)
     duration
     url
-    urlDisplay
     youtube
     speedbuildUrl
   }

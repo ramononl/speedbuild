@@ -2,7 +2,7 @@
   <div class="md:w-1/2 lg:flex-1 lg:w-auto">
     <div class="mx-6 font-thin mb-8 lg:mb-0">
       <div class="relative">
-        <img src="https://picsum.photos/680/380" alt="">
+        <img :src="'https://picsum.photos/680/380?random=' + random" alt="">
         <img class="absolute left-0 bottom-0 ml-4 mb-4 w-24" src="../../assets/icon-play.svg" alt="">
       </div>
       <h3 class="mt-6 text-3xl mt-2 leading-tight">Bachelorstudienrichtung Service Design</h3>
@@ -14,7 +14,11 @@
 
 <script>
 export default {
-
+  computed: {
+    random() {
+      return Math.floor(Math.random() * 1000) + 1;
+    }
+  }
 }
 </script>
 

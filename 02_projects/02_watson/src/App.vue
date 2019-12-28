@@ -4,7 +4,7 @@
       <div class="border-b border-gray-700">
         <div class="flex justify-between items-center max-w-5xl mx-auto py-2 px-4 lg:px-0">
           <div class="flex items-center">
-            <h1 class="text-4xl font-semibold text-white leading-none">watson</h1>
+            <h1 class="text-4xl font-semibold text-white leading-none">watsoff</h1>
             <div class="ml-4 flex items-center">
               <div class="w-8">
                 <img src="./assets/weather.svg" alt="">

@@ -2,7 +2,7 @@
   <div>
     <div class="pb-16 md:flex items-center">
       <div class="md:w-3/4 md:pr-48">
-        <h2>Die FH Graubünden ist praxisorientiert in Studium und Forschung.</h2>
+        <h2>Die FH Braunbünden ist praxisorientiert in Studium und Forschung.</h2>
       </div>
       <div class="md:w-1/4">
         <div class="text-white font-thin md:rounded-full md:w-56 md:h-56 p-3 md:p-0 mt-4 md:mt-0 text-2xl bg-red-700 flex md:flex-col items-center justify-center">

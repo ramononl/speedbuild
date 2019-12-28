@@ -3,10 +3,10 @@
     <div class="flex items-center">
       <div class="w-12 h-12 bg-fhgr-500 flex flex-col justify-center items-center">
         <span class="text-white text-2xl leading-none block">FH</span>
-        <span class="text-white text-2xl leading-none block -mt-1">GR</span>
+        <span class="text-white text-2xl leading-none block -mt-1">BR</span>
       </div>
       <div>
-        <h1 class="ml-2 text-xl leading-none font-semibold text-fhgr-500">Fachhochschule Graubünden</h1>
+        <h1 class="ml-2 text-xl leading-none font-semibold text-fhgr-500">Fachhochschule Braunbünden</h1>
         <span class="ml-2 text-xl leading-none font-thin text-fhgr-500">University of Applied Sciences</span>
       </div>
     </div>

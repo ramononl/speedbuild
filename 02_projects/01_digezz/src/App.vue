@@ -2,7 +2,7 @@
   <div id="app">
     <div class="container mx-auto">
       <div class="mt-3 flex flex-wrap justify-between items-center">
-        <h1 class="text-6xl font-bold">Digezz</h1>
+        <h1 class="text-6xl font-bold">Die Jazz</h1>
         <div class="flex items-center">
           <img src="./assets/search.png" alt="">
           <input class="h-8 border-2 border-gray-900" type="search">

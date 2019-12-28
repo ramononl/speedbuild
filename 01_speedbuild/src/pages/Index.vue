@@ -1,9 +1,9 @@
 <template>
   <Layout>
 
-    <h1>Rapid prototyping with code</h1>
+    <h1>Prototyping with code</h1>
 
-    <p>How fast can I replicate the frontend part of other websites with my own tools?</p>
+    <p>An attempt to replicate the frontend part of other home pages with my own tools.</p>
 
     <div class="mt-4 -mx-4 flex flex-wrap">
       <Card v-for="edge in $static.allSitePost.edges" :key="edge.node.id" :cardData="edge.node"/>
@@ -21,7 +21,6 @@ query AllSites {
         title
         path
         duration
-        preview
         image (width: 550)
       }
     }

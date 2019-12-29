@@ -49,7 +49,7 @@
           <div class="mt-1 font-bold text-sm text-gray-500">von Lorem ipsum</div>
         </div>
       </div>
-      <div class="mt-8 flex flex-wrap justify-around sm:justify-start sm:flex-no-wrap -mx-2">
+      <div class="mt-8 flex flex-wrap justify-between sm:justify-start sm:flex-no-wrap -mx-2">
         <div class="mx-2 w-5/12 sm:w-auto sm:flex-1">
           <img class="shadow-md mb-2" src="https://images.unsplash.com/photo-1575302136415-907c5c4e6777?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=330&h=165&fit=crop" alt="">
           <h2 class="font-bold text-lg leading-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, libero?</h2>
@@ -107,7 +107,7 @@
           <h3 class="mx-2 font-bold text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, ab.</h3>
         </div>
       </div>
-      <div class="mt-8 flex flex-wrap justify-around sm:justify-start sm:flex-no-wrap -mx-2">
+      <div class="mt-8 flex flex-wrap justify-between sm:justify-start sm:flex-no-wrap -mx-2">
         <div class="mx-2 w-5/12 sm:w-auto sm:flex-1">
           <img class="shadow-md mb-2" src="https://images.unsplash.com/photo-1575302136415-907c5c4e6777?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=330&h=165&fit=crop" alt="">
           <h2 class="font-bold text-lg leading-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, libero?</h2>
@@ -300,7 +300,7 @@
           <div class="mt-1 font-bold text-sm text-gray-500">von Lorem ipsum</div>
         </div>
       </div>
-      <div class="mt-8 flex flex-wrap justify-around sm:justify-start sm:flex-no-wrap -mx-2">
+      <div class="mt-8 flex flex-wrap justify-between sm:justify-start sm:flex-no-wrap -mx-2">
         <div class="mx-2 w-5/12 sm:w-auto sm:flex-1">
           <img class="shadow-md mb-2" src="https://images.unsplash.com/photo-1575302136415-907c5c4e6777?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=330&h=165&fit=crop" alt="">
           <h2 class="font-bold text-lg leading-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, libero?</h2>

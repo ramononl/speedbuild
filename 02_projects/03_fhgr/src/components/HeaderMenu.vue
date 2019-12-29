@@ -5,7 +5,7 @@
         <span class="text-white text-2xl leading-none block">FH</span>
         <span class="text-white text-2xl leading-none block -mt-1">BR</span>
       </div>
-      <div>
+      <div class="hidden sm:block">
         <h1 class="ml-2 text-xl leading-none font-semibold text-fhgr-500">Fachhochschule Braunbünden</h1>
         <span class="ml-2 text-xl leading-none font-thin text-fhgr-500">University of Applied Sciences</span>
       </div>

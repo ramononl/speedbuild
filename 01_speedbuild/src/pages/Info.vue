@@ -9,6 +9,7 @@
       <a href="https://unsplash.com/" target="_blank">Unsplash</a> – Beautiful Free Images & Pictures<br>
       <a href="https://picsum.photos/" target="_blank">Lorem Picsum</a> – Lorem Ipsum for photos<br>
       <a href="https://placeholder.com/" target="_blank">Placeholder.com</a> – Free Image Placeholder Service<br>
+      <a href="https://www.netlify.com/" target="_blank">Netlify</a> – Platform for modern web projects<br>
     </p>
     <h2>Project</h2>
     <p>A project by Ramon Kratzer. Multimedia Production, Fachhochschule Graubünden, Digezz.</p>
